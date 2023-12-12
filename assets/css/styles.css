@@ -1484,3 +1484,32 @@ footer p a:hover {
     letter-spacing: 0.25px;
   }
 }
+
+.gallery-image {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.7s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  background-color: white;
+}
+
+.img-box:hover img { 
+  transform: scale(1.3);
+}
